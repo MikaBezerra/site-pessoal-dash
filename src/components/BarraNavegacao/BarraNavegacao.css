@@ -1,0 +1,42 @@
+nav {
+    background-color: #C7BD8B;
+    text-align: center;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 20px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #474432;
+  }
+
+  .buttom-menu {
+    border: 0px;
+    color: #474432;
+    padding: 20px;
+  }
+  
+  .buttom-menu:hover {
+    cursor:pointer;
+    color: #474432ae;
+  }
+
+  @media only screen and (max-width: 580px) {
+    nav ul li {
+        margin: 10px;
+        display: inline-block;
+    }
+  }
+  
+  

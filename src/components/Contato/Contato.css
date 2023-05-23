@@ -1,0 +1,49 @@
+form {
+    width: 350px;
+    margin: 50px auto;
+    background-color: #C7BD8B;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #474432;
+    padding: 15px;
+}
+
+form fieldset {
+    border:0;
+}
+
+form fieldset label {
+    display: block;
+}
+
+form fieldset input, textarea {
+    width: 100%;
+}
+
+form fieldset input {
+    height: 28px;
+}
+
+.buttom-contato {
+    border: 0px;
+    color: #000000;
+    padding: 10px;
+  }
+  
+  .buttom-contato:hover {
+    cursor:pointer;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.303);
+  }
+
+@media only screen and (max-width: 400px) {
+    form {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    form {
+        width: 80%;
+    }
+}

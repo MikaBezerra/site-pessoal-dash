@@ -1,0 +1,26 @@
+.item-portfolio {
+    border: 2px solid #D0BD5C;
+    display: inline-block;
+    margin: 50px;
+    background-color: #C7BD8B;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.item-portfolio a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #474432; 
+}
+
+.item-portfolio a p {
+    margin: 2px;
+}
+
+.item-portfolio img {
+    border-radius: 25px;
+}
+
+.item-portfolio:hover {
+    background-color: #c7bd8b94;
+}
